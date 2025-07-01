@@ -11,14 +11,14 @@ from fly_organelles.run import set_weights
 logger = logging.getLogger(__name__)
 
 #Q1
-log_dir = "/nrs/cellmap/aurrecoecheas/tensorboard/panc_run03"
+log_dir = "/nrs/cellmap/aurrecoecheas/tensorboard/panc_organelle_run01"
 
 CHECKPOINT_PATH = "/nrs/saalfeld/heinrichl/fly_organelles/run08/model_checkpoint_438000"
 OLD_CHECKPOINT_CHANNELS = ["all_mem", "organelle", "mito", "er", "nuc", "pm", "vs", "ld"]
-labels = ['mito', 'ld', 'lyso', 'perox', 'isg', 'nuc']
+labels = ['all_mem', 'mito', 'ld', 'lyso', 'perox', 'isg', 'er','nuc']
 else_map = {"perox":"organelle","isg":"organelle","lyso":"organelle"}
 
-yaml_file = "/nrs/cellmap/aurrecoecheas/mouse-pancreas/train/run/datasets_generated_no1013.yaml"
+yaml_file = "/groups/espinosamedina/home/aurrecoecheas/jrc-muss-pancreas-organelle/train_fly_model/yamls/dataset_generated_newcrops.yaml"
 # Q2: "/groups/cellmap/cellmap/zouinkhim/c-elegen/v2/train/fly_run/datasets_generated_all.yaml"
 iterations = 1000000
 
