@@ -14,6 +14,8 @@ datasets:
     raw_min: 0
     raw_max: 255
     gt_pattern: /nrs/cellmap/data/jrc_mus-pancreas-6/jrc_mus-pancreas-6.zarr/recon-1/labels/groundtruth/[CROP]/
-
-# Pancreas 4 - 1 crop , Pancreas 5 - 3 crops, Pancreas 6 - 4 crops 
-#  --> Check if folder changed : /nrs/cellmap/data/jrc_c-elegans-comma-1/jrc_c-elegans-comma-1_downscaled.zarr/recon-1/em/fibsem-uint8
+  jrc_mus-pancreas-7:
+    raw_path: /nrs/cellmap/data/jrc_mus-pancreas-7/jrc_mus-pancreas-7.zarr/recon-1/em/fibsem-uint8
+    raw_min: 0
+    raw_max: 255
+    gt_pattern: /nrs/cellmap/data/jrc_mus-pancreas-7/jrc_mus-pancreas-7.zarr/recon-1/labels/groundtruth/[CROP]/
