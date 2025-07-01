@@ -23,7 +23,7 @@ yaml_file = "/groups/espinosamedina/home/aurrecoecheas/jrc-muss-pancreas-organel
 iterations = 1000000
 
 label_weights = [1,1 ,1,1,1,1]
-voxel_size = (8, 8, 8)
+voxel_size = (16, 16, 16)
 l_rate = 0.5e-5
 batch_size = 14
 
