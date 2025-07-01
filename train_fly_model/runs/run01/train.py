@@ -15,7 +15,7 @@ log_dir = "/nrs/cellmap/aurrecoecheas/tensorboard/panc_organelle_run01"
 
 CHECKPOINT_PATH = "/nrs/saalfeld/heinrichl/fly_organelles/run08/model_checkpoint_438000"
 OLD_CHECKPOINT_CHANNELS = ["all_mem", "organelle", "mito", "er", "nuc", "pm", "vs", "ld"]
-labels = ['all_mem', 'mito', 'ld', 'lyso', 'perox', 'isg', 'er','nuc']
+labels = ['mito', 'ld', 'lyso', 'perox', 'isg', 'er','nuc']
 else_map = {"perox":"organelle","isg":"organelle","lyso":"organelle"}
 
 yaml_file = "/groups/espinosamedina/home/aurrecoecheas/jrc-muss-pancreas-organelle/train_fly_model/yamls/dataset_generated_newcrops.yaml"
