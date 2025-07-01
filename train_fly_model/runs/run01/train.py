@@ -18,7 +18,7 @@ OLD_CHECKPOINT_CHANNELS = ["all_mem", "organelle", "mito", "er", "nuc", "pm", "v
 labels = ['mito', 'ld', 'lyso', 'perox', 'isg','nuc']
 else_map = {"perox":"organelle","isg":"organelle","lyso":"organelle"}
 
-yaml_file = "/groups/espinosamedina/home/aurrecoecheas/jrc-muss-pancreas-organelle/train_fly_model/yamls/dataset_generated_newcrops.yaml"
+yaml_file = "/groups/espinosamedina/home/aurrecoecheas/jrc-muss-pancreas-organelle/train_fly_model/yamls/datasets_generated_newcrops.yaml"
 # Q2: "/groups/cellmap/cellmap/zouinkhim/c-elegen/v2/train/fly_run/datasets_generated_all.yaml"
 iterations = 1000000
 
