@@ -1,0 +1,31 @@
+#datasets:
+#  jrc_mus-pancreas-4:
+#    contrast:
+#    - 0
+#    - 255
+#    raw: /nrs/cellmap/data/jrc_mus-pancreas-4/jrc_mus-pancreas-4.zarr/recon-1/em/fibsem-uint8
+#    crops:
+#      crop1013: /nrs/cellmap/data/jrc_mus-pancreas-4/jrc_mus-pancreas-4.zarr/recon-1/labels/groundtruth/crop1013/
+      
+  jrc_mus-pancreas-5:
+    contrast:
+    - 35000
+    - 38000
+    raw: /nrs/cellmap/data/jrc_mus-pancreas-5/jrc_mus-pancreas-5.zarr/recon-1/em/fibsem-uint16
+    crops:
+      crop1014: /nrs/cellmap/data/jrc_mus-pancreas-5/jrc_mus-pancreas-5.zarr/recon-1/labels/groundtruth/crop1014/
+      crop992: /nrs/cellmap/data/jrc_mus-pancreas-5/jrc_mus-pancreas-5.zarr/recon-1/labels/groundtruth/crop992/
+      crop993: /nrs/cellmap/data/jrc_mus-pancreas-5/jrc_mus-pancreas-5.zarr/recon-1/labels/groundtruth/crop993/
+  
+  jrc_mus-pancreas-6:
+    contrast:
+    - 0
+    - 255
+    raw: /nrs/cellmap/data/jrc_mus-pancreas-6/jrc_mus-pancreas-6.zarr/recon-1/em/fibsem-uint8
+    crops:
+      crop1015: /nrs/cellmap/data/jrc_mus-pancreas-6/jrc_mus-pancreas-6.zarr/recon-1/labels/groundtruth/crop1015/
+      crop1016: /nrs/cellmap/data/jrc_mus-pancreas-6/jrc_mus-pancreas-6.zarr/recon-1/labels/groundtruth/crop1016/
+      crop990: /nrs/cellmap/data/jrc_mus-pancreas-6/jrc_mus-pancreas-6.zarr/recon-1/labels/groundtruth/crop990/
+      crop991: /nrs/cellmap/data/jrc_mus-pancreas-6/jrc_mus-pancreas-6.zarr/recon-1/labels/groundtruth/crop991/
+
+      # /nrs/cellmap/zubovy/crop_splits/c-elegans/8nm/combined/jrc_c-elegans-comma-1/groundtruth.zarr/crop515/
