@@ -37,6 +37,6 @@ datasets:
     - 255
     raw: /nrs/cellmap/data/jrc_mus-pancreas-7/jrc_mus-pancreas-7.zarr/recon-1/em/fibsem-uint8
     crops:
-      crop1061: /nrs/cellmap/data/jrc_mus-pancreas-6/jrc_mus-pancreas-6.zarr/recon-1/labels/groundtruth/crop1061/
-      crop1062: /nrs/cellmap/data/jrc_mus-pancreas-6/jrc_mus-pancreas-6.zarr/recon-1/labels/groundtruth/crop1062/
+      crop1061: /nrs/cellmap/data/jrc_mus-pancreas-7/jrc_mus-pancreas-7.zarr/recon-1/labels/groundtruth/crop1061/
+      crop1062: /nrs/cellmap/data/jrc_mus-pancreas-7/jrc_mus-pancreas-7.zarr/recon-1/labels/groundtruth/crop1062/
       
